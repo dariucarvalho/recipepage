@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #303030;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.MenuCentral {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  padding: 3rem;
+  border-radius: 2vw; /* Ajuste para tornar mais responsivo */
+  position: relative;
+  width: 90%; /* Ajuste para tornar mais responsivo */
+  max-width: 65rem; /* Definindo um valor máximo */
+  margin: 6rem auto; /* Alterado para centralizar verticalmente */
+}
+
+.MenuCentral .p1 {
+  font-family: "Outfit", sans-serif;
+  margin: 3rem 0rem 0rem 2vw; /* Ajuste para tornar mais responsivo */
+  font-size: 1.5rem;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Aqui começa a seção Preparation */
+.MenuCentral .Preparation {
+  margin: 4rem 0rem 4rem 2vw; /* Ajuste para tornar mais responsivo */
+  padding: 1rem 10vw 1rem 3vw; /* Ajuste para tornar mais responsivo */
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+
+  & h3 {
+    margin: 0rem 0rem 0rem -1rem;
+    color: hsl(332, 51%, 32%);
+  }
+}
+
+.MenuCentral .Preparation .ListaPreparation .ItensListaPreparation {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+.MenuCentral .ListaPreparation {
+  color: hsl(332, 51%, 32%);
+}
+
+.MenuCentral li {
+  margin: 1.8rem;
+  padding-left: 2rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.MenuCentral h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 430;
+  margin: 4rem 0rem -2rem 2vw; /* Ajuste para tornar mais responsivo */
+}
+
+/* Aqui termina a seção Preparation */
+
+/* Aqui começa a seção Ingredients */
+
+.MenuCentral .ListaIngredients {
+  color: hsl(14, 45%, 36%);
+  margin-left: 3vw; /* Ajuste para tornar mais responsivo */
+  font-weight: 500;
+}
+
+.MenuCentral .ItensListaIngredients {
+  color: hsl(30, 10%, 34%);
+  margin-left: -6px;
+}
+
+/* Aqui termina a seção Ingredients */
+
+/* Aqui começa a seção Instructions */
+
+.MenuCentral .Instructions,
+.Ingredients,
+.ContainerNutrition {
+  font-size: 1.5rem;
+  padding: 0rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 18%, 87%);
+  font-weight: 400;
+
+  & h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 300;
+  }
+
+  & .pNutrition {
+    color: hsl(30, 10%, 34%);
+    font-weight: 450;
+    margin: 1.8rem 1.8vw 2.4rem 0.1vw; /* Ajuste para tornar mais responsivo */
+  }
+
+  .Lista {
+    width: 101%;
+    display: flex;
+    margin: 1.9rem 0.5vw 1.9rem 1vw; /* Ajuste para tornar mais responsivo */
+  }
+
+  .NumerodaLista {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+  }
+
+  .ConteudodaLista {
+    color: hsl(30, 10%, 34%);
+    margin-left: 1.8vw; /* Ajuste para tornar mais responsivo */
+    font-weight: 500;
+  }
+}
+
+/* Aqui termina a seção Instructions */
+
+.Tabela {
+  margin-left: 3vw; /* Ajuste para tornar mais responsivo */
+}
+
+.Nutrient p {
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+
+.Amount p {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.linha-horizontal {
+  margin: 2.5vh -5.1vw 3.2vh 0.2vw; /* Ajuste para tornar mais responsivo */
+  border: none;
+  border-top: 0.1vw solid hsl(30, 18%, 87%); /* Ajuste para tornar mais responsivo */
+  width: 100%; /* Define a largura da linha horizontal */
+}
+
+.linha-horizontal-tabela {
+  color: hsl(30, 10%, 34%);
+  margin: 4.5vh -5.1vw 2.4vh -2.7vw; /* Ajuste para tornar mais responsivo */
+  border: none;
+  border-top: 0.1vw solid hsl(30, 18%, 87%); /* Ajuste para tornar mais responsivo */
+  width: 102%; /* Ajuste para tornar mais responsivo */
+}
+
+.T1 {
+  display: flex;
+  flex-flow: row;
+  gap: 110px; /* Ajuste para tornar mais responsivo */
+  margin-bottom: -1.8rem;
+}
+.T2 {
+  display: flex;
+  flex-flow: row;
+  gap: 124px; /* Ajuste para tornar mais responsivo */
+  margin-bottom: -1.8rem;
+}
+.T3 {
+  display: flex;
+  flex-flow: row;
+  gap: 116px; /* Ajuste para tornar mais responsivo */
+  margin-bottom: -1.8rem;
+}
+.T4{
+  display: flex;
+  flex-flow: row;
+  gap: 142px; /* Ajuste para tornar mais responsivo */
+  margin-bottom: 1.2rem;
+}
+
+.T12 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.T11 {
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1vw; /* Ajuste para tornar mais responsivo */
+}
+
+/* Media query para dispositivos com largura máxima de 768px (tablets e celulares em modo paisagem) */
+@media screen and (min-width: 753px) {
+  .MenuCentral {
+    padding: 2rem; /* Reduzir o preenchimento para telas menores */
+    margin-top: 3rem; 
+  }
+
+  .T1 {
+    display: flex;
+    flex-flow: row;
+    gap: 24rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T2 {
+    display: flex;
+    flex-flow: row;
+    gap: 25.5rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T3 {
+    display: flex;
+    flex-flow: row;
+    gap: 24.6rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T4{
+    display: flex;
+    flex-flow: row;
+    gap: 27.2rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .MenuCentral {
+    padding: 2rem; /* Reduzir o preenchimento para telas menores */
+    margin-top: 3rem; 
+  }
+
+  .T1 {
+    display: flex;
+    flex-flow: row;
+    gap: 21rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T2 {
+    display: flex;
+    flex-flow: row;
+    gap: 22.5rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T3 {
+    display: flex;
+    flex-flow: row;
+    gap: 21.6rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T4{
+    display: flex;
+    flex-flow: row;
+    gap: 24.2rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .MenuCentral {
+    padding: 2rem; /* Reduzir o preenchimento para telas menores */
+    margin-top: 3rem; 
+  }
+
+  .T1 {
+    display: flex;
+    flex-flow: row;
+    gap: 15rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T2 {
+    display: flex;
+    flex-flow: row;
+    gap: 16.5rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T3 {
+    display: flex;
+    flex-flow: row;
+    gap: 15.6rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: -1.8rem;
+  }
+  .T4{
+    display: flex;
+    flex-flow: row;
+    gap: 18.2rem; /* Ajuste para tornar mais responsivo */
+    margin-bottom: 1.2rem;
+  }
+}
